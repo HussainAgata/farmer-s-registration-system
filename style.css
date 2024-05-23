@@ -82,26 +82,32 @@ button:hover{
     color: #fff;
     
 }
-.showcase h3{
+.showcase h1{
     font-size: 45px;
 }
 .showcase .txt{
    width: 70%;
-   padding-top: 180px;
+   padding-top: 160px;
    animation-name: shw-txt;
    animation-duration: 5s;
    animation-delay: 2s;
    animation-fill-mode: forwards;
    opacity: 0;
 }
+.showcase p{
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+
+.showcase button{
+    margin-top: 30px;
+}
 
 @keyframes shw-txt{
     0%{opacity: 0;}
     100%{opacity: 2;}
 }
-.showcase p{
-    line-height: 3em;
-}
+
 
 /*about*/
 .about{
@@ -125,12 +131,12 @@ button:hover{
     text-align: justify;
 }
 .abt p{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .abt img{
     width: 350px;
     height: 350px;
-    margin-top: -20px;
+    margin-top: 0px;
 }
 
 /*contact*/
@@ -243,7 +249,7 @@ button:hover{
        text-align: center;
     }
     .showcase p{
-        line-height: 3em;
+        line-height: 1.5em;
     }
     .about h3{
         text-align: center;
